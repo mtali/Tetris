@@ -1,4 +1,4 @@
-package com.colisa.tetris.ui.theme
+package com.colisa.tetris.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

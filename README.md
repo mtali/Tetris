@@ -2,11 +2,11 @@
 
 ## :scroll: Description
 
-This project contains a fully functional Tetris game built entirely with [Jetpack Compose](https://developer.android.com/jetpack/compose), a modern toolkit for building Android user interfaces. 
-Players can use touchscreen gestures to control the movement and rotation of falling blocks, aiming to create complete horizontal lines to score points.
+This project contains a fully functional Tetris game built entirely with [Jetpack Compose](https://developer.android.com/jetpack/compose), a modern toolkit for building Android user interfaces. Players can use touchscreen gestures to control the movement and rotation of falling blocks, aiming to create complete horizontal lines to score points.
 
-<img src="docs/icon.png" width=110 align=left hspace="10" vspace="10"  >
+<img src="docs/icon.png" width=110 hspace="10" vspace="10"  >
 
+## Features
 - Classic Tetris gameplay with falling blocks
 - High score tracking
 - Sound effects to enhance the gameplay experience

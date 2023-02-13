@@ -14,7 +14,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.colisa.tetris.theme.BrickMatrix
 import com.colisa.tetris.theme.BrickSpirit
-import com.colisa.tetris.utils.LedFontFamily
+import com.colisa.tetris.logic.LedFontFamily
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.math.roundToInt

@@ -1,4 +1,4 @@
-package com.colisa.tetris.utils
+package com.colisa.tetris.logic
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -8,7 +8,6 @@ import android.media.AudioManager
 import android.media.SoundPool
 import android.view.View
 import android.view.WindowManager
-import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
@@ -16,7 +15,7 @@ import androidx.compose.ui.text.font.FontWeight
 import com.colisa.tetris.R
 
 
-fun Offset(x: Int, y: Int) = Offset(x.toFloat(), y.toFloat())
+fun Offset(x: Int, y: Int) = androidx.compose.ui.geometry.Offset(x.toFloat(), y.toFloat())
 
 
 enum class Direction {
@@ -57,7 +56,7 @@ object SoundUtil {
     private val map = mutableMapOf<SoundType, Int>()
 
     fun init(context: Context) {
-        this.context = context
+        SoundUtil.context = context
         Sounds.forEach {
             map[it] = sp.load(context, it.res, 1)
         }
